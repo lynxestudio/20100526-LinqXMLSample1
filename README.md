@@ -12,11 +12,11 @@ Debido a estas características XML y sus tecnologías están completamente inte
 <p align="justify">
 Para mostrar de una manera práctica la utilización de LINQ para XML, ejecutamos MonoDevelop y creamos una nueva solución en el menú “Archivo”, del lado derecho de la ventana de nueva solución seleccionamos el icono que dice “Solución en blanco” y en el cuadro de texto nombre escogemos “LinqXML”, esta será la solución que contenga los dos proyectos de este tutorial.
 </p>
-<img src="linqxml1.png">
+<img src="images/linqxml1.png">
 <p align="justify">
 Agregamos a nuestra solución un proyecto de consola, le llamamos CrearXML , como se muestra en la siguiente imagen.
 </p>
-<img src="linqxml2.png">
+<img src="images/linqxml2.png">
 Para que el soporte de LINQ a XML es importante hacer referencia a los siguientes ensamblados:
 
 <b>System.Linq</b>: Es el ensamblado principal y básico que contiene todas las clases e interfaces para trabajar con LINQ.
@@ -25,11 +25,7 @@ Para que el soporte de LINQ a XML es importante hacer referencia a los siguiente
 
 <p align="justify">
 Esto se logra haciendo click derecho sobre el archivo de proyecto y en el menú desplegable escogemos la opción “Editar referencias” (Edit References) como se muestra en la imagen siguiente.</p>
-<img src="linqxml3.png">
-<p align="justify">
-Ahora completamos el código generado por monodevelop, para que el programa completo quede como en el siguiente listado.
-</p>
-<img src="linqXMLSource.png">
+<img src="images/linqxml3.png">
 <p align="justify">
 La diferencia de la sintaxis para crear documentos XML con respecto a la sintaxis empleada con las clases del ensamblado System.Xml, es que esta sintaxis se enfoca más en los elementos (representados por la clase XElement) que en el documento (representado en la clase Xdocument ).
 </p>
@@ -39,4 +35,4 @@ En este listado creamos el documento XML de una manera declarativa anidando vari
 <p align="justify">
 Construimos la aplicación pulsando la tecla F8 y al ejecutarse veremos el resultado en la ventana de salida de MonoDevelop como se muestra en la imagen siguiente.
 </p>
-<img src="linqxml4.png">
+<img src="images/linqxml4.png">
