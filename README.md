@@ -21,6 +21,3 @@ Para mostrar de una manera práctica la utilización de LINQ para XML, ejecutamo
 <p>
 <div><img src="images/fig3.png"/></div>
 </p>
-<p>
-<div><img src="images/fig4.png"/></div>
-</p>
